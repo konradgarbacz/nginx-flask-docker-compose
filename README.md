@@ -34,8 +34,8 @@ docker_compose/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/konradgarbacz/nginx-flask-docker-compose.git
+cd nginx-flask-docker-compose
 ```
 
 2. Build and start the containers
@@ -44,7 +44,8 @@ cd your-repo
 docker compose -p myapp up --build -d
 ```
 
-3. Open your browser and go to `http://localhost:8080`
+3. If running locally: `http://localhost:8080`
+If running on a VM: `http://<your-vm-ip>:8080`
 
 ## Endpoints
 
