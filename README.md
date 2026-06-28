@@ -21,7 +21,7 @@ docker_compose/
 │   └── Dockerfile
 ├── nginx/
 │   └── default.conf
-└── docker-compose.yml
+└── docker-compose.yaml
 ```
 
 ## Requirements
