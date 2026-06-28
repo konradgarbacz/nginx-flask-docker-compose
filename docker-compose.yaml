@@ -1,0 +1,14 @@
+services:
+  app:
+    build: ./app
+    ports: 
+      - "5000:5000"
+
+  nginx:
+    image: nginx:latest
+    ports: 
+      - "8080:80"
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - app
